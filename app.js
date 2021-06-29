@@ -2,7 +2,7 @@ const game = () => {
     let pScore = 0;
     let cScore = 0;
   
-    //Start the Game
+    // Game Start
     const startGame = () => {
       const playBtn = document.querySelector(".intro button");
       const introScreen = document.querySelector(".intro");
@@ -13,7 +13,7 @@ const game = () => {
         match.classList.add("fadeIn");
       });
     };
-    //Play Match
+    // Playing the Match
     const playMatch = () => {
       const options = document.querySelectorAll(".options button");
       const playerHand = document.querySelector(".player-hand");
